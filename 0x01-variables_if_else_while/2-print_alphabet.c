@@ -17,5 +17,6 @@ for (i=0; i<=25; i++)
 result = tolower(alphabet[i]);
 putchar(result);
 }
+putchar('\n');
 return (0);
 }
