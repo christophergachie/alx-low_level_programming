@@ -4,7 +4,7 @@
 /**
  * main - start of the program
  *
- * Return - returns 0 at the end of the program
+ * Return value returns 0
  *
  */
 int main(void)
