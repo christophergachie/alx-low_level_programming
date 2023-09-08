@@ -8,7 +8,8 @@ int main(void)
 {
 int i = 0x0;
 do {
-printf("%d\n", i++);
+printf("%d", i++);
 } while (i <= 9);
+putchar('\n');
 return (0);
 }
