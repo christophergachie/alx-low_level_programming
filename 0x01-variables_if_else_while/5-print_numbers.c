@@ -7,8 +7,8 @@
 int main(void)
 {
 int i = 0x0;
-do{
-printf("%d", i++);
-} while (i<=9);
+do {
+printf("%d\n", i++);
+} while (i <= 9);
 return (0);
 }
