@@ -6,18 +6,13 @@
 */
 int main(void)
 {
-int first;
-int last;
-for (first = 0; first <= 9; first++)
+int i;
+for (i = 0; i <= 9; i++)
 {
-for (last = 0; last <= 9; last++)
-{
-putchar(first + '0');
-putchar(last + '0');
-if (first != 9 || last != 9)
+putchar(i + '0');
+if (i != 9)
 {
 putchar(',');
-}
 }
 }
 putchar('\n');
