@@ -6,12 +6,12 @@
 */
 int first;
 int last;
-for(first = 0; first <= 9; first++)
+for (first = 0; first <= 9; first++)
 {
-for(last = 0; last <= 9; last++)
+for (last = 0; last <= 9; last++)
 {
-putchar(i + '0');
-putchar(j + '0');
+putchar(first + '0');
+putchar(last + '0');
 if (i != 9 || j!= 9)
 {
 putchar(',');
@@ -19,5 +19,5 @@ putchar(',');
 }
 }
 putchar('\n');
-rgeturn (0);
+return (0);
 }
