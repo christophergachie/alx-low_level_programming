@@ -1,2 +1,2 @@
 #!/bin/bash
-ccp ($CFILE) -o c
+ccp -E ($CFILE) -o c
