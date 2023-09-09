@@ -1,2 +1,2 @@
 #!/bin/bash
-ccp -E ($CFILE) -o c
+ccp -E ($CFILE) -o c | export CFILE=main.c ./0-preprocessor
