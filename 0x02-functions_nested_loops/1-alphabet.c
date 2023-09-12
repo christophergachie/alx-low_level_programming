@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 /**
 * main -Entry point of the program
@@ -8,7 +7,6 @@
 *
 * Return: On success, returns the character written. On error, returns -1.
 */
-void print_alphabet(void);
 void print_alphabet(void)
 {
 int i;
