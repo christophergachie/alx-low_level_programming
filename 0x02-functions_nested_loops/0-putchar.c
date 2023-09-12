@@ -10,7 +10,6 @@
 * Return: On success, returns the character written. On error, returns -1.
 *
 */
-int _putchar(char c);
 int main(void)
 {
 _putchar('_');
