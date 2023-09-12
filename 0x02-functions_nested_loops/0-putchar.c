@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <main.h>
 /**
 * main - entry point of the program
 * _putchar - outputs a single character to the screen
