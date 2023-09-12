@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <main.h>
 /**
 * main -Entry point of the program
 * @c - outputs a single character to the screen
