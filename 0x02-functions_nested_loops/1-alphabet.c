@@ -8,10 +8,7 @@
 * Return: On success, returns the character written. On error, returns -1.
 */
 void print_alphabet(void);
-int _putchar(char c)
-{
-return write(1, &c, 1);
-}
+int _putchar(char c);
 void print_alphabet(void)
 {
 int i;
