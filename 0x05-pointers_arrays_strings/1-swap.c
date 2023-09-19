@@ -2,9 +2,13 @@
 #include "main.h"
 /**
 * reset_to_98 - Sets an integer to 98.
-* @n: A pointer to an integer.
 *
-* Description: This function takes a pointer to an integer as a parameter
+* swap_int - this function swaps the values of two integers.
+* @a: Pointer to the first integer that will be swapped
+* @b: Pointer to the second integer that will be swapped
+*
+* Description: This function takes two pointers to integers, 'a' and 'b', and swaps
+* their values. The value pointed to by 'a' will be assigned to 'b', and vice versa.
 * main - check the code
 *
 * Return: Always 0.
