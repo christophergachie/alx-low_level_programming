@@ -1,6 +1,6 @@
 int _strlen(char *s)
 {
-len;
+int len;
 for (len = 0; *(s + len) != '\0'; len++)
 {
 }
