@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
 #include "main.h"
-#include "_putchar.c"
 /**
 * main - check the code 
 *
