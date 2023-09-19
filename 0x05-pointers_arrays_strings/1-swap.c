@@ -7,7 +7,7 @@
 * @b: Pointer to the second integer
 * that will be swapped
 *
-* Description: This function takes two pointers 
+* Description: This function takes two pointers
 * to integers, 'a' and 'b', and swaps
 * their values. The value pointed to by
 * 'a' will be assigned to 'b', and vice versa.
