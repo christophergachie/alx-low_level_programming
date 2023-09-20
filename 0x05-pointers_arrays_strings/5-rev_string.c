@@ -16,6 +16,6 @@ for (a = 0; a < reverse_it; a++)
 reverse_it--;
 rev = s[a];
 s[a] = s[reverse_it];
-s[counter] = rev;
+s[reverse_it] = rev;
 }
 }
