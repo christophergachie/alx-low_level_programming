@@ -7,24 +7,21 @@
 */
 void puts2(char *str)
 {
-int print_it = 0;
+int pty = 0;
 int i = 0;
-char *j = str;
+char *y = str;
 int k;
-for (; *j != '\0'; j++)
+for (; *y != '\0'; y++)
 {
-print_it++;
+pty++;
 }
-i = print_it - 1;
-k = 0;
-do
+t = pty - 1;
+for (k = 0; k <= i; k++)
 {
 if (k % 2 == 0)
 {
 _putchar(str[k]);
 }
-k++;
 }
-while (k <= i);
 _putchar('\n');
 }
