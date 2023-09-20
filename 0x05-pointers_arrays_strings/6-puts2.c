@@ -24,6 +24,7 @@ if (k % 2 == 0)
 _putchar(str[k]);
 }
 k++;
-} while (k <= i);
+}
+while (k <= i);
 _putchar('\n');
 }
