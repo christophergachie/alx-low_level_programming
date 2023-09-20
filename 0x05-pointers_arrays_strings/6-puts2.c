@@ -11,7 +11,7 @@ int print_it = 0;
 int i = 0;
 char *j = str;
 int k;
-for (; *j != '\0'; y++)
+for (; *j != '\0'; j++)
 {
 print_it++;
 }
