@@ -3,7 +3,7 @@
 * main -Entry point of the program
 * @c - outputs a single character to the screen
 * Description: This function writes the character 'c' to the standard output.
-*             It is commonly used to print individual characters.
+* print_alphabet - print all alphabet in lowercase
 *
 * Return: On success, returns the character written. On error, returns -1.
 */
