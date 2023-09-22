@@ -1,9 +1,7 @@
 #include "main.h"
 /**
-* main -Entry point of the program
-* print_alphabet - print all alphabet in lowercase
 *
-* Return: On success, returns the character written. On error, returns -1.
+* print_alphabet - print all alphabet in lowercase
 */
 void print_alphabet(void)
 {
