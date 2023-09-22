@@ -1,20 +1,19 @@
-#include <unistd.h>
 #include "main.h"
 /**
-* main -Entry point of the program
-* @c - outputs a single character to the screen
-* Description: This function writes the character 'c' to the standard output.
-*             It is commonly used to print individual characters.
-*
-* Return: On success, returns the character written. On error, returns -1,
+* print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+* followed by a new line
 */
-void print_alphabet_x10(void){
-int i, j;
-for (j = 0; j < 10; j++)
+void print_alphabet_x10(void)
 {
-for (i = 'a'; i <=  'z'; i++)
+char ch;
+int i;
+for (i = 0; i < 10; i++)
 {
-_putchar(i);
+ch = 'a';
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
 }
 _putchar('\n');
 }
