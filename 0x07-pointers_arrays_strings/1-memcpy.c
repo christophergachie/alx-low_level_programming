@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
 * _memcpy -Enty point
 * dest: input
