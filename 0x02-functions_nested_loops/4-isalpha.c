@@ -4,6 +4,7 @@
 /**
 * _isalpha -Entry point
 * @C accomodates uppercase characters
+* @c fucntion argument checked if true
 * Return 1 if c is a character
 * and 0 if c is a non-character
 */
