@@ -2,12 +2,11 @@
 #include <ctype.h>
 #include "main.h"
 /**
-* _isalpha -Entry point
-** @param c The character to be checked.
-* @return 1 if the character is an alphabet character 
-* ('a' to 'z' or 'A' to 'Z'),
-* 0 otherwise.
-* Return 1 if c is a character and 0 if c is a non-character
+* _isalpha - Check if a character is an alphabet character.
+* @c: The character to be checked.
+*
+* Return: 1 if the character is an alphabet character
+* ('a' to 'z' or 'A' to 'Z'), 0 otherwise.
 */
 int _isalpha(int c)
 {
